@@ -80,4 +80,13 @@ y = log^b(x)/log^b(a)
 slide 8:
 
 order, ranges, inequalities
+let (S, <_) be a totally ordered set
+this means for x,y (fucked up e) S, either x <_ y or y <_ x
+x = y if x <_ y and y <_ x 
+the range a <_ x <_ b (a < x < b) can be described by the closed (open) interval [a,b] ((a,b))
+the range a < x <_ b (a <_ x < b) can be described
 
+slide 9:
+
+let s = r, the set of real numbers
+assuminng a != 0, the set of values of x that satisfy this inequality lies in the range (-inf, (5-3)/2] or (-inf, 1]
