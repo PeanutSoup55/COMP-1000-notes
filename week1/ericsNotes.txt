@@ -63,4 +63,21 @@ let b be any base
 
 slide 6:
 
+let b be any base and n as a non-negative integer 
+(power rule) log^b(x^n) = nlog^b(x)
+
+
+slide 7:
+
+let a be another base different from b and x>0 a real number. the following rule enables us compute log^a(x) from log^b(x)
+(base changing rule) log^a(x) = log^b(x) / log^b(a)
+x = a^y
+log^b(x) = log^b(a^y)
+log^b(x) = y.log^b(a)
+y = log^b(x)/log^b(a)
+
+
+slide 8:
+
+order, ranges, inequalities
 
