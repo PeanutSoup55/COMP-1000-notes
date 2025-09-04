@@ -24,3 +24,11 @@ problems:
 
 Slide 2:
 
+laws of exponents
+assume m and n are non-negative integers
+a^n = a.a.a 
+for a != 0, a^0 = 1
+for a != 0, a^-n = 1/a^n 
+a^m . a^n = a^m+n
+a^n . b^n = (a.b)^n 
+a^m . b^n = (a.b)^m+n 
