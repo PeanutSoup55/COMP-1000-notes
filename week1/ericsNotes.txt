@@ -1,0 +1,19 @@
+absolute value
+|a| = {a if a > 0 or -a if a < 0}
+
+|a + b| = { |a| + |b|, if a and b have the same sign}
+          { ||a| - |b||, if a and b have opposite signs}
+
+|a.b| = |a|.|b|
+
+|a^n| = |a|^n
+
+|a/b| = |a|/|b| for b!= 0
+
+remark: this follows the product rule of the third bullet -How?
+
+problems:
+1.  |3|, |-3| = 3, 3
+2.  |3+2|, |(-3)+2| = 5, 5
+3.  |(-3).2|, |(-3)/2| = 6, 3
+4.  |(-2)^3|, |2^3| = 8, 8
