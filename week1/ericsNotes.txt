@@ -90,3 +90,33 @@ slide 9:
 
 let s = r, the set of real numbers
 assuminng a != 0, the set of values of x that satisfy this inequality lies in the range (-inf, (5-3)/2] or (-inf, 1]
+
+
+Floor and Ceiling functions
+Floor and ceiling functions are extensively used in the Analysis of
+Algorithms.
+Definition
+The floor of a real number x, denoted by ⌊x⌋, is the largest integer not
+exceeding x.
+Examples:
+If x = 3.5, then ⌊3.5⌋ = 3.
+If x = −3.5, then ⌊−3.5⌋ = −4.
+Exercise
+What is ⌊0.001⌋ ? What is ⌊−0.001⌋?
+Definition
+The ceiling of a real number x, denoted by ⌈x⌉, is the smallest integer
+exceeding x.
+Fall 2025 Key Concepts in Computer Science 11 / 12
+
+Floor and Ceiling functions
+Examples:
+If x = 3.5, then ⌈3.5⌉ = 4.
+If x = −3.5, then ⌈−3.5⌉ = -3.
+Exercise
+What is ⌈0.001⌉ ? What is ⌈−0.001⌉?
+Exercise
+Show that ⌊x⌋ ≤ ⌈x⌉ (floor is always below the ceiling!)
+Exercise
+If n is an integer show that ⌊x + n⌋ = ⌊x⌋ + n. This is saying that an
+integer value can be moved in and out of a floor function.
+Fall 2025 Key Concepts in Computer Science 12 / 12
