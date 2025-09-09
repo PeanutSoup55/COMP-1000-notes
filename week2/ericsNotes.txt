@@ -1,0 +1,110 @@
+Propositional Logic
+asish mukhopadhyay
+University of Windsor
+Fall 2025
+Fall 2025 Key Concepts in Computer Science 1 / 31
+Outline
+Why ?
+Goals ?
+Propositions
+Connectives
+Negation
+Conjunction
+Disjunction
+Implication, contrapositive, inverse, converse
+Biconditional
+Truth Tables
+Fall 2025 Key Concepts in Computer Science 1 / 31
+Why Study Propositional Logic In Computer Science?
+Mathematical Logic can be used to precisely describe and analyze
+ideas
+Propositional Logic is an important subarea of this discipline and
+plays a fundamental role in many areas of Computer Science such as
+Logic Circuits
+Database query languages
+Programming languages (e.g., Prolog)
+Design validation and verification, proof of correctness and termination
+AI (e.g., automated reasoning systems)
+Fall 2025 Key Concepts in Computer Science 2 / 31
+Our Goals
+Help you understand and construct formal proofs, appreciate formal
+descriptions (particularly in theoretical computer science)
+Provide sufficient background to understand and appreciate higher
+order logics (predicate calculus, for example)
+Analyze logical expressions in terms of satisfiabilty, validity, and
+logical consequences
+In the least, enable you to identify flaws in arguments
+Fall 2025 Key Concepts in Computer Science 3 / 31
+Propositions
+Definition
+A proposition is a declarative sentence that is either true or false
+Building block of logic
+Examples of propositions (which one is true and which one is false?)
+The Moon is made of green cheese
+Toronto is the capital of Canada
+1 + 0 = 1
+0 + 0 = 2
+Examples that are not propositions
+Sit down!
+What time is it?
+x + 1 = 2
+x + y = z
+Fall 2025 Key Concepts in Computer Science 4 / 31
+Compound Propositions
+Constructing Propositions
+How to make new propositions using existing ones
+Propositional Variables: p, q, r , s, . . .
+Similar to letters that denote numerical variables (for example, x = 2)
+The proposition that is always true is denoted by T
+The proposition that is always false is denoted by F
+Fall 2025 Key Concepts in Computer Science 5 / 31
+Truth Tables
+Definition
+A truth table is a breakdown of a proposition by listing all possible values
+it can attain
+Here is the truth table for a propositional variable p
+p
+T
+F
+Why is it the right truth table for p ?
+– Because p is either true (T) or false (F)!
+Fall 2025 Key Concepts in Computer Science 6 / 31
+Compound Propositions
+Definition
+Compound Propositions are constructed from logical connectives and
+other propositions
+Negation ¬
+Conjunction ∧
+Disjunction ∨
+Implication →
+Biconditional ↔
+Let’s look at each one of them in detail
+Fall 2025 Key Concepts in Computer Science 7 / 31
+Compound Propositions
+Negation
+The negation of a proposition p is denoted by ¬p and has this truth
+table:
+p ¬p
+T F
+F T
+Example:
+If p denotes “The earth is round”
+Then ¬p denotes “It is not the case that the earth is round” or more
+simply “The earth is not round”
+For ¬p to be true, p must be false
+Fall 2025 Key Concepts in Computer Science 8 / 31
+Compound Propositions
+Conjunction
+The conjunction (∧) of propositions p and q is denoted by p ∧ q and
+has this truth table:
+p q p ∧ q
+T F F
+F T F
+F F F
+T T T
+Example:
+If p denotes “You are at home” and q denotes “It is raining”
+Then p ∧ q denotes “You are at home” and “It is raining”
+This is true if you are at home and it is raining
+For p ∧ q to be true, both of p and q must be true
+Fall 2025 Key Concepts in Computer Science 9 / 31
